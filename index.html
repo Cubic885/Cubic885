@@ -40,18 +40,18 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Papers</heading>
+              <heading>Projects</heading>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <!-- LERF -->
-          <tr onmouseout="lerf_stop()" onmouseover="lerf_start()">
+          <!-- Bronco Ember -->
+          <tr onmouseout="Brocno_Ember_stop()" onmouseover="Bronco_Ember_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <!-- IMAGES -->
               <div class="one">
                 <div class="two" id='lerf_under'>
-                  <img src="images/lerf_under.svg" width='180'/>
+                  <img src="Images/broncoember2022d.jpg" width='180'/>
                 </div>
                 <video  width=115% height=100% muted autoplay loop id="lerf_splash">
                   <source src="images/lerf_splash.mp4" type="video/mp4">
@@ -60,32 +60,25 @@
               </div>
               <!-- SCRIPT FOR HOVERING -->
               <script type="text/javascript">
-                function lerf_start() {
+                function Bronco_Ember_start() {
                   document.getElementById('lerf_splash').style.opacity = "0";
                   document.getElementById('lerf_under').style.opacity = "1";
                 }
 
-                function lerf_stop() {
+                function Bronco_Ember_stop() {
                   document.getElementById('lerf_splash').style.opacity = "1";
                   document.getElementById('lerf_under').style.opacity = "0";
                 }
-                lerf_stop()
+                Bronco_Ember_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <!-- TITLE -->
-              <a href="https://lerf.io"><papertitle>LERF: Language Embedded Radiance Fields</papertitle></a>
+              <a href="https://bronco-ember.github.io/"><papertitle>Bronco Ember</papertitle></a>
               <br>
-              <!-- AUTHORS -->
-              <b>Justin Kerr</b>*, Chung Min Kim*, Ken Goldberg, Angjoo Kanazawa, Matthew Tancik
-              <br>
-              *Equal contribution
-              <br>
-              <!-- CONFERENCE -->
-              <em>ICCV</em> 2023
               <!-- LINKS -->
               <br>
-              <a href="https://arxiv.org/abs/2303.09553">arXiv</a> / <a href="https://lerf.io">Website</a>
+              <a href="https://bronco-ember.github.io/">Website</a>
               <p></p>
               <!-- SUMMARY -->
               Grounding CLIP vectors volumetrically inside a NeRF allows flexible natural language queries in 3D
